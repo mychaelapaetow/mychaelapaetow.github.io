@@ -123,3 +123,5 @@ footer { margin: 40px 0 0; padding: 22px 0 40px; border-top: 1px solid var(--rul
 .item .t a { color: var(--text); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
 .item .t a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .funding { color: var(--faint); font-size: 14px; margin: 1px 0 0; }
+a.coauthor { color: inherit; text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+a.coauthor:hover { color: var(--accent); text-decoration-color: var(--accent); }
