@@ -120,3 +120,5 @@ footer { margin: 40px 0 0; padding: 22px 0 40px; border-top: 1px solid var(--rul
   .paper.featured { grid-template-columns: 1fr; gap: 14px; }
   .refs { grid-template-columns: 1fr; }
 }
+.item .t a { color: var(--text); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+.item .t a:hover { color: var(--accent); text-decoration-color: var(--accent); }
