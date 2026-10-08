@@ -48,7 +48,7 @@ header { padding: 56px 0 28px; }
 .hero { display: flex; gap: 36px; align-items: center; }
 .photo { flex: 0 0 190px; }
 .photo img, .photo .ph {
-  width: 190px; height: 190px; border-radius: 50%; object-fit: cover; display: block;
+  width: 190px; height: 190px; border-radius: 6px; object-fit: cover; display: block;
 }
 .photo .ph {
   background: #eef0f2; color: var(--faint);
