@@ -46,9 +46,9 @@ nav a:hover { color: var(--accent); text-decoration: none; }
 /* ---------- Header ---------- */
 header { padding: 56px 0 28px; }
 .hero { display: flex; gap: 36px; align-items: center; }
-.photo { flex: 0 0 190px; }
+.photo { flex: 0 0 300px; }
 .photo img, .photo .ph {
-  width: 190px; height: 238px; border-radius: 6px; object-fit: cover; display: block;
+  width: 300px; height: 420px; border-radius: 6px; object-fit: cover; object-position: center 25%; display: block;
 }
 .photo .ph {
   background: #eef0f2; color: var(--faint);
@@ -115,6 +115,8 @@ footer { margin: 40px 0 0; padding: 22px 0 40px; border-top: 1px solid var(--rul
 @media (max-width: 640px) {
   header { padding-top: 32px; }
   .hero { flex-direction: column; text-align: center; gap: 18px; }
+  .photo { flex: none; width: min(300px, 80vw); }
+  .photo img, .photo .ph { width: 100%; height: auto; aspect-ratio: 5 / 7; }
   .links { justify-content: center; }
   h1 { font-size: 31px; }
   .paper.featured { grid-template-columns: 1fr; gap: 14px; }
